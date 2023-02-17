@@ -4,22 +4,21 @@
 }
 
 
-header{
+header{ /* 타이틀 배경색 폰트 설정 */
   width: inherit;
   font-family: 'Inter', 'sans-serif';
   background-color: #2196F3;
 }
 
-footer{
+footer{ /* 정보 배경색 폰트  사이즈*/
   width: inherit;
   height: 200px;
-  Font style: Regular;
   font-size: 8px;
   line-height: 10px;
   background: #333333;
 }
 
-.smallwhite{
+.smallwhite{ /* 타이틀 작은 하양 색 폰트*/
   font-style: normal;
   font-weight: 900;
   font-size: 12px;
@@ -27,26 +26,26 @@ footer{
   color: #FFFFFF;
   }
 
-  .bigwhite{
+  .bigwhite{ /* 메인 화면 2 작은 하양 색 폰트*/
     font-family: 'Karantina', 'cursive';
 font-size: 128px;
 color: #FFFFFF;
   }
 
-.smallblue{
+.smallblue{/* 메인 화면 1 작은 파랑 색 폰트*/
   font-size: 12px; 
   color: #2196F3;
   text-align: center;
 }
 
-  .bigblue{
+  .bigblue{/* 메인 화면 1 큰 파랑 색 폰트*/
 font-weight: 700;
 font-size: 96px;
 line-height: 100%;
     color: #2196F3;
   }
 
-  .smallgray{
+  .smallgray{/* 정보 작은 회색 폰트*/
     padding-top: 82px;
     padding-left: 43px;
     padding-right: 42px;
@@ -57,17 +56,19 @@ color: #F0F0F0;
   }
 
 
-  .biggray{
+  .biggray{/* 메인 화면 1 큰 회색 폰트*/
 font-weight: 700;
 font-size: 96px;
 line-height: 100%;
 color: #333333;
   }
-  .hr1{/* main blue hr */
+
+  .hr1{/* 메인 화면 수평선 */
     height: 4px;
     background: #ffffff;
   }
-  .hr2{/* footer hr*/
+  
+  .hr2{/* 정보 수평선*/
     height: 2px;
     background: #D9D9D9;
   }

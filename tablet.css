@@ -11,11 +11,12 @@
     padding-top: 68px;
     text-align: center;
   }
-  .p1{/* 1. 헤드 꺽쇠 */
+  .p1{/* 네비 1 꺽쇠 */
     color: #2196F3;
   }
 
-  .main1{
+  .nav1{
+    /* 네비 1 화면 */
     width: inherit;
     height: 200px;
     padding-top: 40px;
@@ -26,25 +27,26 @@
     color: #000000;
     background: #F0F0F0;
     }
-    .p2{/* 2.1 메인 꺽쇠 */
 
-      position: absolute;
-      width: 8px;
-      height: 14px;
-      left: 210px;
-      top: 886px;
-      
-      color: #2196F3;
-      transform: rotate(90deg);
-      }
 
-    .main2white{
+    .main2white{ /*메인 화면 1 배경 하양*/
       padding-top: 86px;
       padding-left: 60px;
       width: inherit;
       height: 864px;
       }
-      .smallblue{
+      .p2{/* 메인 화면 1 꺽쇠 */
+
+        position: absolute;
+        width: 8px;
+        height: 14px;
+        left: 210px;
+        top: 886px;
+        
+        color: #2196F3;
+        transform: rotate(90deg);
+        }
+      .smallblue{/* 메인 화면 1 작은 파랑 색 폰트*/
         font-size: 12px; 
         color: #2196F3;
       position: absolute;
@@ -54,7 +56,7 @@
       top: 924px;
       }
 
-    .main3blue{
+    .main3blue{ /*메인 화면 2 배경 파랑*/
       width: inherit;
       height: 1368px;
       padding-top: 507px;
@@ -62,7 +64,7 @@
       padding-right: 68px;
       background-color: #2196F3;
     }
-    .p3{/* 2.2 메인 꺽쇠 */
+    .p3{/* 메인 화면 2 꺽쇠 */
     position: absolute;
     width: 35px;
     height: 61px;
@@ -72,7 +74,7 @@
     color: #FFFFFF;
 
   }
-  .smallgray{
+  .smallgray{/* 정보 */
     padding-top: 85px;
     padding-left: 66px;
     padding-right: 68px;
