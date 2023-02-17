@@ -1,0 +1,123 @@
+
+/* 모바일 
+(가로 해상도가 430px 보다 작은 화면에 적용) */
+@media (min-width: 100px)
+and (max-width: 430px) 
+ {
+  .container{width: 430px}
+    
+  header{width: 100%;
+    height: 110px;
+    padding-top: 68px;
+    padding-bottom: 27px;
+    text-align: center;
+  }
+  .p1{/* 1. 헤드 꺽쇠 */
+
+    position: absolute;
+    font-weight: 8px;
+    font-size: 14px;
+    top: 69px;
+    right: 18px;
+  }
+  .main1{
+    color: #FFFFFF;
+    height: 0px;
+  }
+
+
+  .main2white{
+    width: inherit;
+    height: 822px;
+    }
+
+    main > div > div> div:nth-child(1) {
+      position: absolute;
+      width: 302px;
+      height: 96px;
+      left: 23px;
+      top: 329px;
+      
+    }
+    main > div > div> div:nth-child(2) {
+      position: absolute;
+      width: 335px;
+      height: 96px;
+      left: 23px;
+      top: 382px;    
+      
+    }    main > div > div> div:nth-child(3) {
+      position: absolute;
+      width: 146px;
+      height: 96px;
+      left: 23px;
+      top: 435px;
+      
+    }    main > div > div> div:nth-child(4) {
+      position: absolute;
+      width: 195px;
+      height: 96px;
+      left: 23px;
+      top: 488px;
+    }
+    main > div > div> div:nth-child(5) {
+      position: absolute;
+      width: 252px;
+      height: 96px;
+      left: 23px;
+      top: 541px;      
+    }
+    main > div > div:nth-child(3){
+      position: absolute;
+      width: 285px;
+      height: 30px;
+      left: 73px;
+      top: 817px;
+    }
+    .smallblue{
+      font-size: 12px; 
+      color: #2196F3;
+      text-align: center;
+      align-items: flex-end;
+      padding-bottom: 85px;
+    }
+    
+    .p2{/* 2.1 메인 꺽쇠 */
+
+      position: absolute;
+      width: 8px;
+      height: 14px;
+      left: 222px;
+      top: 750px;
+      
+      color: #2196F3;
+      transform: rotate(90deg);
+      }
+    .main3blue{
+      width: inherit;
+      height: 732px;
+      padding-left: 19px;
+      padding-right: 125px;
+      background-color: #2196F3;
+      padding-top: 231px;
+    }
+    .p3{/* 2.2 메인 꺽쇠 */
+
+      position: absolute;
+width: 35px;
+height: 61px;
+left: 327px;
+top: 1298px;
+
+    }
+    .smallblue{
+      font-size: 12px; 
+      color: #2196F3;
+      text-align: center;
+    }
+    .dd{
+      line-height-step: 10%;
+    }
+} 
+ 
+

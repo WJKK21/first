@@ -1,0 +1,126 @@
+
+
+/* 데스크탑 
+(가로 해상도가 1024px보다 크고 1728px 보다 작은 화면에 적용)  */
+@media(min-width: 1728px) {
+  .container{
+    width: 1728px}
+
+  header{
+    height: 100px;
+    
+font-style: normal;
+    padding-top: 50px;
+    padding-left: 38px;
+    text-align: left;
+  }
+  .p1{/* 1. 헤드 꺽쇠 */
+    color: #2196F3;
+  }
+
+  main{
+    display: flex;
+    
+  }
+  .main1{
+    width: inherit;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 38px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 175%;
+    color: #000000;
+    background: #F0F0F0;
+
+    }
+  
+  .main2white{
+    width: 429px;
+    height: 857px;
+    padding-top: 24px;
+    padding-left: 38px;
+    line-height: 70%;
+    }   
+
+    main > div > div> div:nth-child(1) {
+      position: absolute;
+      width: 302px;
+      height: 96px;
+      left: 38px;
+      top: 324px;
+    }
+    main > div > div> div:nth-child(2) {
+      position: absolute;
+      width: 335px;
+      height: 96px;
+      left: 38px;
+      top: 403px;
+      
+    }    main > div > div> div:nth-child(3) {
+      position: absolute;
+      width: 146px;
+      height: 96px;
+      left: 38px;
+      top: 482px;
+      
+    }    main > div > div> div:nth-child(4) {
+      position: absolute;
+      width: 195px;
+      height: 96px;
+      left: 38px;
+      top: 562px;
+      
+    }
+    main > div > div> div:nth-child(5) {
+      position: absolute;
+      width: 252px;
+      height: 96px;
+      left: 38px;
+      top: 642px;   
+    }
+    main > div > div:nth-child(3){
+      position: absolute;
+      width: 285px;
+      height: 30px;
+      left: 38px;
+      top: 862px;
+    }
+
+
+    .p2{/* 2.1 메인 꺽쇠 */
+      position: absolute;
+      width: 8px;
+      height: 14px;
+      left: 188px;
+      top: 824px;
+      color: #2196F3;
+      transform: rotate(90deg);
+      }
+
+
+    .main3blue{
+      text-align: end;
+      width: 1299px;
+      height: 857px;
+      padding-top: 414px;
+      padding-right: 69px;
+      padding-left: 109.59px;
+      background-color:#2196F3 ;
+      line-height: 90%;
+    }    
+    
+    .p3{/* 2.2 메인 꺽쇠 */
+      color:#2196F3 ;
+    }
+
+    .smallgray{
+      padding-top: 71px;
+      padding-left: 38px;
+      padding-right: 64px;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 10px;
+  color: #F0F0F0;
+    }
+} 

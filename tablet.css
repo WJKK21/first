@@ -1,0 +1,85 @@
+
+
+/*태블릿 
+(가로 해상도가 430px보다 크고 1024px 보다 작은 화면에 적용)  */
+@media (min-width: 431px) and (max-width: 1024px) {
+  .container{
+    width: 1024px}
+    
+  header{
+    height: 100px;
+    padding-top: 68px;
+    text-align: center;
+  }
+  .p1{/* 1. 헤드 꺽쇠 */
+    color: #2196F3;
+  }
+
+  .main1{
+    width: inherit;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 60px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.8em;
+    color: #000000;
+    background: #F0F0F0;
+    }
+    .p2{/* 2.1 메인 꺽쇠 */
+
+      position: absolute;
+      width: 8px;
+      height: 14px;
+      left: 210px;
+      top: 886px;
+      
+      color: #2196F3;
+      transform: rotate(90deg);
+      }
+
+    .main2white{
+      padding-top: 86px;
+      padding-left: 60px;
+      width: inherit;
+      height: 864px;
+      }
+      .smallblue{
+        font-size: 12px; 
+        color: #2196F3;
+      position: absolute;
+      width: 285px;
+      height: 30px;
+      left: 60px;
+      top: 924px;
+      }
+
+    .main3blue{
+      width: inherit;
+      height: 1368px;
+      padding-top: 507px;
+      padding-left: 60px;
+      padding-right: 68px;
+      background-color: #2196F3;
+    }
+    .p3{/* 2.2 메인 꺽쇠 */
+    position: absolute;
+    width: 35px;
+    height: 61px;
+    left: 368px;
+    top: 1806px;
+    
+    color: #FFFFFF;
+
+  }
+  .smallgray{
+    padding-top: 85px;
+    padding-left: 66px;
+    padding-right: 68px;
+font-weight: 400;
+font-size: 8px;
+line-height: 10px;
+color: #F0F0F0;
+  }
+} 
+ 
